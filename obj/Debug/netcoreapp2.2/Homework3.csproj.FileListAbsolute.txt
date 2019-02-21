@@ -1,0 +1,11 @@
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/bin/Debug/netcoreapp2.2/Homework3.deps.json
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/bin/Debug/netcoreapp2.2/Homework3.runtimeconfig.json
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/bin/Debug/netcoreapp2.2/Homework3.runtimeconfig.dev.json
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/bin/Debug/netcoreapp2.2/Homework3.dll
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/bin/Debug/netcoreapp2.2/Homework3.pdb
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/obj/Debug/netcoreapp2.2/Homework3.csprojAssemblyReference.cache
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/obj/Debug/netcoreapp2.2/Homework3.csproj.CoreCompileInputs.cache
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/obj/Debug/netcoreapp2.2/Homework3.AssemblyInfoInputs.cache
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/obj/Debug/netcoreapp2.2/Homework3.AssemblyInfo.cs
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/obj/Debug/netcoreapp2.2/Homework3.dll
+/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/obj/Debug/netcoreapp2.2/Homework3.pdb

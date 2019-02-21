@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/angelicaalonzo/Desktop/CIDM 3312/Homeworks/Homework3/Homework3.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
