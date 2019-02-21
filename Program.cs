@@ -64,7 +64,7 @@ namespace Homework3
           
             do
             {
-                Console.WriteLine("\n Please choose one of the following");
+                Console.WriteLine("\n Please choose one of the following or press Q to quit.");
                 Console.WriteLine("\n1. Ask a Question \n2. List all Questions \n3. List Only Unanswered Questions \n4. Delete a question you have posted");
                 
                 string cmd = Console.ReadLine();
@@ -141,7 +141,7 @@ namespace Homework3
 
         }
             foreach (Question m in db.Questions){
-                Console.WriteLine($"({m.QuestionID} Posted By:{m.UserID} {m.FirstName} {m.QuestionPosted} \n {m.QuestionText}\n \t {m.Answers} \n {db.Questions.Count()})");
+                Console.WriteLine($"({m.QuestionID} Posted By:{m.UserID}  {m.QuestionPosted} \n {m.QuestionText}\n \t {m.Answers} \n {db.Questions.Count()})");
             }
             //after questions are listed the user is asked if they want to answer a question
 
@@ -166,6 +166,7 @@ namespace Homework3
         using(var db = new AppDbContext()){
 
             Question a = db.Questions.Find(id);
+            Console.WriteLine("Please enter your answer");
             answer= Console.ReadLine(); 
 
             db.Add(answer); 
