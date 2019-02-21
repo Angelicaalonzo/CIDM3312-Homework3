@@ -18,7 +18,7 @@ namespace Homework3
         {
              
 
-        //creading a new empty list for users, questions, and answers
+        //creating a new empty list for users, questions, and answers
         using (var db = new AppDbContext())
             {
 
@@ -48,7 +48,7 @@ namespace Homework3
             
                 Console.WriteLine("Sorry, that email does not exist. Let's create an account.  ");
                 User A = new User(); 
-                Console.WriteLine("Enter Your FirstName");
+                Console.WriteLine("Enter Your First Name");
                 A.FirstName = Console.ReadLine(); 
                 Console.WriteLine("Please enter your Last Name");
                 A.LastName = Console.ReadLine(); 
@@ -82,6 +82,8 @@ namespace Homework3
                     case "4":
                       Delete();
                         break;
+                    case "q":
+                    return; 
                     default:
                        Console.WriteLine("Invalid command.");
                         break;
@@ -91,11 +93,15 @@ namespace Homework3
 
         static void ListUnanswered(){
 
+            
+
            using (var db= new AppDbContext()){
-               var questions = db.Questions.Where (q => q.Answers.Count()==0);
-               foreach(var q in questions){
-                   Console.WriteLine(db.ToString());
+
+             var questions = db.Questions.Where (q => q.Answers.Count()==0);
+             foreach(var q in questions){
+                  Console.WriteLine(db.ToString());
                }
+               
            }
        }
  
@@ -200,6 +206,8 @@ namespace Homework3
             // This will keep looping until user enters 'q' for quit.
 
             Console.WriteLine("Welcome! ");
+
+            //routes to the log in function.
             LogIn(); 
       
         }
